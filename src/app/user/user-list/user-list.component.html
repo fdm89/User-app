@@ -1,0 +1,9 @@
+<h1>Users</h1>
+<div class="d-flex container" *ngFor="let user of Users">
+  <img [src]="user.profilePhotoUrl" width="100px" height="100px">
+  <p>{{user.name}}</p>
+  <p>{{user.age}}</p>
+  <p>{{user.address.city}}</p>
+  <button class="btn btn-primary" (click)="showDetail.emit(user)">show</button>
+  <button class="btn btn-danger">close</button>
+</div>

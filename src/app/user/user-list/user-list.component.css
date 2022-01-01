@@ -1,0 +1,12 @@
+.container{
+  border: solid 1px yellow;
+  gap: 10px;
+  margin-bottom: 5px;
+  width: 500px;
+  margin-left: 0;
+}
+
+.btn{
+  width: 80px;
+  height: 40px;
+}
