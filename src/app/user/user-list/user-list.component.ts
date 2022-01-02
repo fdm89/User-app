@@ -9,6 +9,7 @@ import { User } from 'src/app/model/User';
 export class UserListComponent implements OnInit {
 @Input() Users!:User[]
 @Output() showDetail = new EventEmitter <User> ()
+@Output() removeUser = new EventEmitter <User> ()
   constructor() { }
 
 

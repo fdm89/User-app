@@ -5,5 +5,5 @@
   <p>{{user.age}}</p>
   <p>{{user.address.city}}</p>
   <button class="btn btn-primary" (click)="showDetail.emit(user)">show</button>
-  <button class="btn btn-danger">close</button>
+  <button class="btn btn-danger" (click)="removeUser.emit(user)">remove</button>
 </div>

@@ -19,6 +19,11 @@ this.selectedUser = user
 close(){
   this.selectedUser = null
 }
+
+remove(user:User){
+  this.Users = this.Users.filter(item => item.id != user.id)
+
+}
   ngOnInit(): void {
   }
 

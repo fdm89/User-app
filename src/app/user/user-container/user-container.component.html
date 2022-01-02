@@ -1,2 +1,2 @@
-<user-app-user-list (showDetail)="show($event)"  [Users]="Users"></user-app-user-list>
+<user-app-user-list (removeUser)="remove($event)" (showDetail)="show($event)"  [Users]="Users"></user-app-user-list>
 <user-app-user-detail (closeDetail)="close()" [selectedUser]="selectedUser"></user-app-user-detail>
